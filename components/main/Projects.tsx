@@ -55,27 +55,27 @@ const Projects = () => {
         <motion.div variants={cardVariants}>
           <ProjectCard
             src="/NextWebsite.png"
-            title="Modern Next.js Portfolio"
-            description="A modern portfolio built with Next.js, TailwindCSS, and Framer Motion."
-            githubLink="https://github.com/yourusername/nextjs-portfolio"
+            title="Pokedex website"
+            description="A stylish wesite using html css and js."
+            githubLink="https://github.com/Trisitchanda/Pokedex"
           />
         </motion.div>
 
         <motion.div variants={cardVariants}>
           <ProjectCard
             src="/CardImage.png"
-            title="Interactive Website Cards"
-            description="Cards with smooth hover animations and responsive layout."
-            githubLink="https://github.com/yourusername/interactive-cards"
+            title="Chatbot"
+            description="chat anything with ai"
+            githubLink="https://github.com/Trisitchanda/Chatbot"
           />
         </motion.div>
 
         <motion.div variants={cardVariants}>
           <ProjectCard
             src="/SpaceWebsite.png"
-            title="Space Themed Website"
-            description="A beautiful space-themed landing page with animations."
-            githubLink="https://github.com/yourusername/space-website"
+            title="Simon says game"
+            description="A simple game using html css and js"
+            githubLink="https://github.com/Trisitchanda/Simons-says-game"
           />
         </motion.div>
       </motion.div>
