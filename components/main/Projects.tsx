@@ -3,11 +3,8 @@ import React from "react";
 import ProjectCard from "../sub/ProjectCard";
 import { motion } from "framer-motion";
 import {
-  slideInFromLeft,
-  slideInFromRight,
   slideInFromTop,
 } from "@/utils/motion";
-import { useInView } from "react-intersection-observer";
 
 const Projects = () => {
   // Animation variants for the project cards
@@ -79,23 +76,6 @@ const Projects = () => {
             title="Space Themed Website"
             description="A beautiful space-themed landing page with animations."
             githubLink="https://github.com/yourusername/space-website"
-          />
-        </motion.div>
-        <motion.div variants={cardVariants}>
-          <ProjectCard
-            src="/SpaceWebsite.png"
-            title="Space Themed Website"
-            description="A beautiful space-themed landing page with animations."
-            githubLink="https://github.com/yourusername/space-website"
-          />
-        </motion.div>
-
-        <motion.div variants={cardVariants}>
-          <ProjectCard
-            src="/SpaceWebsite.png"
-            title="Space Themed Website"
-            description="A beautiful space-themed landing page with animations."
-            githubLink="https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/tree/main/lectures"
           />
         </motion.div>
       </motion.div>
